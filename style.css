@@ -60,3 +60,9 @@ html, body {
 .monkey-button {
   font-size: 6rem;
 }
+
+.finale-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
