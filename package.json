@@ -1,0 +1,18 @@
+{
+  "name": "coffeedoro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.3",
+    "fusuma": "2.8.4",
+    "react-rough-notation": "1.0.3"
+  },
+  "scripts": {
+    "start": "fusuma start",
+    "start:prod": "fusuma start-prod",
+    "build": "fusuma build",
+    "deploy": "npm run build && fusuma deploy",
+    "pdf": "npm run build && fusuma pdf"
+  }
+}
